@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-es2015-modules-commonjs",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-export-extensions"
+  ],
+  "env": {
+    "development": {
+      "sourceMaps": "inline"
+    },
+    "testing": {
+      "plugins": []
+    }
+  }
+}
